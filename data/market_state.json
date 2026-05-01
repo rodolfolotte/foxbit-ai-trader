@@ -1,0 +1,77 @@
+{
+    "timestamp": "2026-05-01T17:24:50.202910",
+    "markets": [
+        {
+            "market": "BTCBRL",
+            "macro": "BEAR",
+            "macd_vote": "HOLD",
+            "rsi_vote": "HOLD",
+            "ema_vote": "HOLD",
+            "decision": "HOLD"
+        },
+        {
+            "market": "ETHBRL",
+            "macro": "BEAR",
+            "macd_vote": "HOLD",
+            "rsi_vote": "HOLD",
+            "ema_vote": "HOLD",
+            "decision": "HOLD"
+        },
+        {
+            "market": "USDTBRL",
+            "macro": "BULL",
+            "macd_vote": "HOLD",
+            "rsi_vote": "HOLD",
+            "ema_vote": "SELL",
+            "decision": "HOLD"
+        },
+        {
+            "market": "USDCBRL",
+            "macro": "BULL",
+            "macd_vote": "HOLD",
+            "rsi_vote": "HOLD",
+            "ema_vote": "SELL",
+            "decision": "HOLD"
+        },
+        {
+            "market": "SOLBRL",
+            "macro": "BEAR",
+            "macd_vote": "HOLD",
+            "rsi_vote": "HOLD",
+            "ema_vote": "HOLD",
+            "decision": "HOLD"
+        },
+        {
+            "market": "XRPBRL",
+            "macro": "BEAR",
+            "macd_vote": "HOLD",
+            "rsi_vote": "HOLD",
+            "ema_vote": "HOLD",
+            "decision": "HOLD"
+        },
+        {
+            "market": "APEBRL",
+            "macro": "BEAR",
+            "macd_vote": "HOLD",
+            "rsi_vote": "HOLD",
+            "ema_vote": "SELL",
+            "decision": "HOLD"
+        },
+        {
+            "market": "AAVEBRL",
+            "macro": "BULL",
+            "macd_vote": "HOLD",
+            "rsi_vote": "HOLD",
+            "ema_vote": "HOLD",
+            "decision": "HOLD"
+        },
+        {
+            "market": "BRL1BRL",
+            "macro": "BULL",
+            "macd_vote": "HOLD",
+            "rsi_vote": "BUY",
+            "ema_vote": "SELL",
+            "decision": "HOLD"
+        }
+    ]
+}

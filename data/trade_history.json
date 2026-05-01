@@ -1,0 +1,18 @@
+[
+    {
+        "timestamp": "2026-05-01T10:30:00.000000",
+        "market": "btcbbrl",
+        "action": "BUY",
+        "price": 350000.00,
+        "quantity": 0.0028,
+        "status": "SUCCESS"
+    },
+    {
+        "timestamp": "2026-05-01T15:45:00.000000",
+        "market": "ethbrl",
+        "action": "SELL",
+        "price": 11500.00,
+        "quantity": 0.15,
+        "status": "PAPER"
+    }
+]

@@ -1,0 +1,21 @@
+[Unit]
+Description=Foxbit AI Trader Daemon
+After=network.target
+
+[Service]
+Type=simple
+# Change the user to your actual linux username (e.g., rodolfo)
+User=rodolfo
+# Point to your exact project directory
+WorkingDirectory=/home/rodolfo/git/private/foxbit-ai-trader
+# Use the virtual environment Python to run the daemon
+ExecStart=/home/rodolfo/git/private/foxbit-ai-trader/.venv/bin/python daemon.py
+Restart=always
+RestartSec=10
+# Standard output and error logging (viewable via journalctl)
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=foxbit-trader
+
+[Install]
+WantedBy=multi-user.target
