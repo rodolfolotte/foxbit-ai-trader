@@ -117,7 +117,7 @@ def run_scan():
         stop_loss_pct = float(os.getenv("STOP_LOSS_PCT", "3.0"))
         console.print("[dim]Mode: [bold magenta]MAX GAIN[/bold magenta] (15m candles, TP: 5%, SL: 3%)[/dim]")
         
-    min_volume_brl = 50000.0  
+    min_volume_brl = 5000.0  
     
     client = FoxbitClient()
     
@@ -151,7 +151,7 @@ def run_scan():
     # 3. Scanning Loop
     for market in brl_markets:
         try:
-            time.sleep(0.1)
+            time.sleep(0.2)
             
             data = client.get_candlesticks(market, interval=interval, limit=100)
             if not data or len(data) < 96: continue
@@ -200,13 +200,29 @@ def run_scan():
             vote_ema = result['vote_ema']
             decision = result['decision']
             
+            # Calculate 24h change using first/last of the data (assuming oldest first or similar)
+            # Based on previous logic, we can use the DataFrame 'df'
+            change_24h = 0.0
+            if len(df) >= 2:
+                # In scanner, df is chronological (oldest first) after reverse()? 
+                # Let's check: 167: data.reverse() -> now newest is first? 
+                # 168: df = pd.DataFrame(data).iloc[:, :6]
+                # If newest is first, df.iloc[0] is current, df.iloc[-1] is 24h ago.
+                current = float(df['close'].iloc[0])
+                old = float(df['close'].iloc[-1])
+                if old > 0:
+                    change_24h = ((current - old) / old) * 100
+
             market_state_list.append({
                 "market": market.upper(),
                 "macro": macro_trend,
                 "macd_vote": "BUY" if vote_mbb == 1 else "SELL" if vote_mbb == -1 else "HOLD",
                 "rsi_vote": "BUY" if vote_rsi == 1 else "SELL" if vote_rsi == -1 else "HOLD",
                 "ema_vote": "BUY" if vote_ema == 1 else "SELL" if vote_ema == -1 else "HOLD",
-                "decision": decision
+                "decision": decision,
+                "price": current_price,
+                "volume_24h": volume_24h,
+                "change_24h": change_24h
             })
             
             current_rsi = df.iloc[-1][[c for c in df.columns if c.startswith('RSI')][0]]

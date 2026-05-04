@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-05-01T17:24:50.202910",
+    "timestamp": "2026-05-04T20:36:40.961548",
     "markets": [
         {
             "market": "BTCBRL",
@@ -7,7 +7,10 @@
             "macd_vote": "HOLD",
             "rsi_vote": "HOLD",
             "ema_vote": "HOLD",
-            "decision": "HOLD"
+            "decision": "HOLD",
+            "price": 392928.0,
+            "volume_24h": 11820015.97576798,
+            "change_24h": 1.1050370551347828
         },
         {
             "market": "ETHBRL",
@@ -15,23 +18,32 @@
             "macd_vote": "HOLD",
             "rsi_vote": "HOLD",
             "ema_vote": "HOLD",
-            "decision": "HOLD"
+            "decision": "HOLD",
+            "price": 11626.9,
+            "volume_24h": 3353053.8199007697,
+            "change_24h": 0.4936827529264003
         },
         {
             "market": "USDTBRL",
             "macro": "BULL",
             "macd_vote": "HOLD",
             "rsi_vote": "HOLD",
-            "ema_vote": "SELL",
-            "decision": "HOLD"
+            "ema_vote": "BUY",
+            "decision": "HOLD",
+            "price": 4.9618,
+            "volume_24h": 24478339.93273054,
+            "change_24h": 0.2378169212785689
         },
         {
             "market": "USDCBRL",
             "macro": "BULL",
             "macd_vote": "HOLD",
             "rsi_vote": "HOLD",
-            "ema_vote": "SELL",
-            "decision": "HOLD"
+            "ema_vote": "BUY",
+            "decision": "HOLD",
+            "price": 4.9626,
+            "volume_24h": 2153497.6135705,
+            "change_24h": 0.15113045580946044
         },
         {
             "market": "SOLBRL",
@@ -39,7 +51,10 @@
             "macd_vote": "HOLD",
             "rsi_vote": "HOLD",
             "ema_vote": "HOLD",
-            "decision": "HOLD"
+            "decision": "HOLD",
+            "price": 420.14,
+            "volume_24h": 513564.38505807,
+            "change_24h": -0.4022468700909216
         },
         {
             "market": "XRPBRL",
@@ -47,15 +62,120 @@
             "macd_vote": "HOLD",
             "rsi_vote": "HOLD",
             "ema_vote": "HOLD",
-            "decision": "HOLD"
+            "decision": "HOLD",
+            "price": 6.936,
+            "volume_24h": 1404903.07835167,
+            "change_24h": -0.15859284890426933
         },
         {
-            "market": "APEBRL",
+            "market": "ADABRL",
+            "macro": "BULL",
+            "macd_vote": "HOLD",
+            "rsi_vote": "HOLD",
+            "ema_vote": "HOLD",
+            "decision": "HOLD",
+            "price": 1.2451,
+            "volume_24h": 64136.97976024,
+            "change_24h": 0.15259818488474924
+        },
+        {
+            "market": "DOGEBRL",
             "macro": "BEAR",
             "macd_vote": "HOLD",
             "rsi_vote": "HOLD",
-            "ema_vote": "SELL",
-            "decision": "HOLD"
+            "ema_vote": "HOLD",
+            "decision": "HOLD",
+            "price": 0.54163,
+            "volume_24h": 147310.16451064,
+            "change_24h": 1.231467976293792
+        },
+        {
+            "market": "DOTBRL",
+            "macro": "BULL",
+            "macd_vote": "HOLD",
+            "rsi_vote": "HOLD",
+            "ema_vote": "HOLD",
+            "decision": "HOLD",
+            "price": 6.043,
+            "volume_24h": 9545.79640843,
+            "change_24h": 0.9597881846764824
+        },
+        {
+            "market": "AVAXBRL",
+            "macro": "BULL",
+            "macd_vote": "HOLD",
+            "rsi_vote": "HOLD",
+            "ema_vote": "HOLD",
+            "decision": "HOLD",
+            "price": 45.429,
+            "volume_24h": 52747.48371972,
+            "change_24h": 0.36540535781108285
+        },
+        {
+            "market": "POLBRL",
+            "macro": "BEAR",
+            "macd_vote": "HOLD",
+            "rsi_vote": "HOLD",
+            "ema_vote": "HOLD",
+            "decision": "HOLD",
+            "price": 0.47442,
+            "volume_24h": 45480.4370923,
+            "change_24h": 2.346022511698489
+        },
+        {
+            "market": "LTCBRL",
+            "macro": "BULL",
+            "macd_vote": "HOLD",
+            "rsi_vote": "HOLD",
+            "ema_vote": "HOLD",
+            "decision": "HOLD",
+            "price": 276.3,
+            "volume_24h": 66343.81602436,
+            "change_24h": -0.9916757148027538
+        },
+        {
+            "market": "LINKBRL",
+            "macro": "BEAR",
+            "macd_vote": "HOLD",
+            "rsi_vote": "HOLD",
+            "ema_vote": "HOLD",
+            "decision": "HOLD",
+            "price": 45.601,
+            "volume_24h": 115481.85016563,
+            "change_24h": 2.054779500449546
+        },
+        {
+            "market": "UNIBRL",
+            "macro": "BEAR",
+            "macd_vote": "HOLD",
+            "rsi_vote": "HOLD",
+            "ema_vote": "HOLD",
+            "decision": "HOLD",
+            "price": 16.257,
+            "volume_24h": 26553.60503492,
+            "change_24h": 0.1107215353386057
+        },
+        {
+            "market": "XLMBRL",
+            "macro": "BEAR",
+            "macd_vote": "HOLD",
+            "rsi_vote": "HOLD",
+            "ema_vote": "HOLD",
+            "decision": "HOLD",
+            "price": 0.7875,
+            "volume_24h": 15924.93734667,
+            "change_24h": -0.45714285714284913
+        },
+        {
+            "market": "MANABRL",
+            "macro": "BEAR",
+            "macd_vote": "HOLD",
+            "rsi_vote": "HOLD",
+            "ema_vote": "HOLD",
+            "decision": "HOLD",
+            "price": 0.44178,
+            "volume_24h": 95278.94115491,
+            "change_24h": -1.5731812214224299
         },
         {
             "market": "AAVEBRL",
@@ -63,15 +183,252 @@
             "macd_vote": "HOLD",
             "rsi_vote": "HOLD",
             "ema_vote": "HOLD",
-            "decision": "HOLD"
+            "decision": "HOLD",
+            "price": 461.5,
+            "volume_24h": 27695.89057475,
+            "change_24h": -0.7388949079089978
+        },
+        {
+            "market": "CHZBRL",
+            "macro": "BEAR",
+            "macd_vote": "HOLD",
+            "rsi_vote": "HOLD",
+            "ema_vote": "HOLD",
+            "decision": "HOLD",
+            "price": 0.20307,
+            "volume_24h": 5578.21506958,
+            "change_24h": -1.7432412468606824
+        },
+        {
+            "market": "COMPBRL",
+            "macro": "BEAR",
+            "macd_vote": "HOLD",
+            "rsi_vote": "HOLD",
+            "ema_vote": "HOLD",
+            "decision": "HOLD",
+            "price": 114.25,
+            "volume_24h": 17051.45103588,
+            "change_24h": 4.367614879649886
+        },
+        {
+            "market": "BNBBRL",
+            "macro": "BEAR",
+            "macd_vote": "HOLD",
+            "rsi_vote": "HOLD",
+            "ema_vote": "SELL",
+            "decision": "HOLD",
+            "price": 3078.2,
+            "volume_24h": 14330.02164383,
+            "change_24h": 0.912871158469247
+        },
+        {
+            "market": "GALA2BRL",
+            "macro": "BEAR",
+            "macd_vote": "HOLD",
+            "rsi_vote": "HOLD",
+            "ema_vote": "SELL",
+            "decision": "HOLD",
+            "price": 0.01536,
+            "volume_24h": 42379.50623925,
+            "change_24h": 1.4973958333333286
+        },
+        {
+            "market": "TRXBRL",
+            "macro": "BEAR",
+            "macd_vote": "HOLD",
+            "rsi_vote": "SELL",
+            "ema_vote": "BUY",
+            "decision": "HOLD",
+            "price": 1.6807,
+            "volume_24h": 7311.3888927299995,
+            "change_24h": 0.8032367465936721
+        },
+        {
+            "market": "BCHBRL",
+            "macro": "BULL",
+            "macd_vote": "HOLD",
+            "rsi_vote": "HOLD",
+            "ema_vote": "HOLD",
+            "decision": "HOLD",
+            "price": 2212.4,
+            "volume_24h": 91055.77913117,
+            "change_24h": -0.013559934912320642
+        },
+        {
+            "market": "OPBRL",
+            "macro": "BEAR",
+            "macd_vote": "HOLD",
+            "rsi_vote": "HOLD",
+            "ema_vote": "SELL",
+            "decision": "HOLD",
+            "price": 0.61106,
+            "volume_24h": 10660.71818656,
+            "change_24h": 1.26992439367656
+        },
+        {
+            "market": "ARBBRL",
+            "macro": "BEAR",
+            "macd_vote": "HOLD",
+            "rsi_vote": "HOLD",
+            "ema_vote": "BUY",
+            "decision": "HOLD",
+            "price": 0.59587,
+            "volume_24h": 8884.27669163,
+            "change_24h": -2.69521875576887
+        },
+        {
+            "market": "NEARBRL",
+            "macro": "BEAR",
+            "macd_vote": "HOLD",
+            "rsi_vote": "HOLD",
+            "ema_vote": "SELL",
+            "decision": "HOLD",
+            "price": 6.349,
+            "volume_24h": 7044.01995972,
+            "change_24h": -1.3702945345723834
+        },
+        {
+            "market": "LDOBRL",
+            "macro": "BEAR",
+            "macd_vote": "HOLD",
+            "rsi_vote": "HOLD",
+            "ema_vote": "HOLD",
+            "decision": "HOLD",
+            "price": 1.8235,
+            "volume_24h": 6016.639314569999,
+            "change_24h": 2.2539073210858316
+        },
+        {
+            "market": "TIABRL",
+            "macro": "BEAR",
+            "macd_vote": "HOLD",
+            "rsi_vote": "HOLD",
+            "ema_vote": "HOLD",
+            "decision": "HOLD",
+            "price": 1.731,
+            "volume_24h": 7986.09630575,
+            "change_24h": 3.9225880993645204
+        },
+        {
+            "market": "PEPEBRL",
+            "macro": "BEAR",
+            "macd_vote": "HOLD",
+            "rsi_vote": "HOLD",
+            "ema_vote": "SELL",
+            "decision": "HOLD",
+            "price": 1.968e-05,
+            "volume_24h": 37857.20436907,
+            "change_24h": 0.8130081300812929
+        },
+        {
+            "market": "SUIBRL",
+            "macro": "BEAR",
+            "macd_vote": "HOLD",
+            "rsi_vote": "HOLD",
+            "ema_vote": "HOLD",
+            "decision": "HOLD",
+            "price": 4.5996,
+            "volume_24h": 44803.481615489996,
+            "change_24h": 0.7609357335420502
+        },
+        {
+            "market": "FETBRL",
+            "macro": "BULL",
+            "macd_vote": "HOLD",
+            "rsi_vote": "SELL",
+            "ema_vote": "BUY",
+            "decision": "HOLD",
+            "price": 1.0302,
+            "volume_24h": 29391.66023441,
+            "change_24h": -1.2230634828188647
         },
         {
             "market": "BRL1BRL",
-            "macro": "BULL",
+            "macro": "BEAR",
+            "macd_vote": "HOLD",
+            "rsi_vote": "HOLD",
+            "ema_vote": "BUY",
+            "decision": "HOLD",
+            "price": 1.0001,
+            "volume_24h": 2065838.005344,
+            "change_24h": 0.0
+        },
+        {
+            "market": "ONDOBRL",
+            "macro": "BEAR",
             "macd_vote": "HOLD",
             "rsi_vote": "BUY",
             "ema_vote": "SELL",
-            "decision": "HOLD"
+            "decision": "HOLD",
+            "price": 1.4148,
+            "volume_24h": 11039.12429484,
+            "change_24h": 11.273678258411081
+        },
+        {
+            "market": "PENDLEBRL",
+            "macro": "BEAR",
+            "macd_vote": "HOLD",
+            "rsi_vote": "BUY",
+            "ema_vote": "SELL",
+            "decision": "HOLD",
+            "price": 7.8426,
+            "volume_24h": 47721.427156850004,
+            "change_24h": 17.83464667329713
+        },
+        {
+            "market": "PYTHBRL",
+            "macro": "BEAR",
+            "macd_vote": "HOLD",
+            "rsi_vote": "HOLD",
+            "ema_vote": "HOLD",
+            "decision": "HOLD",
+            "price": 0.24318,
+            "volume_24h": 5185.40464094,
+            "change_24h": -0.16037503084135268
+        },
+        {
+            "market": "HYPEBRL",
+            "macro": "BEAR",
+            "macd_vote": "HOLD",
+            "rsi_vote": "HOLD",
+            "ema_vote": "SELL",
+            "decision": "HOLD",
+            "price": 205.96,
+            "volume_24h": 23340.0242011,
+            "change_24h": 1.5197125655467059
+        },
+        {
+            "market": "WLFIBRL",
+            "macro": "BULL",
+            "macd_vote": "HOLD",
+            "rsi_vote": "SELL",
+            "ema_vote": "BUY",
+            "decision": "HOLD",
+            "price": 0.29435,
+            "volume_24h": 29965.118948,
+            "change_24h": 7.990487514863254
+        },
+        {
+            "market": "ELIZAOSBRL",
+            "macro": "BULL",
+            "macd_vote": "HOLD",
+            "rsi_vote": "HOLD",
+            "ema_vote": "HOLD",
+            "decision": "HOLD",
+            "price": 0.0030344,
+            "volume_24h": 7921.30952897,
+            "change_24h": 63.4853677827577
+        },
+        {
+            "market": "RLSBRL",
+            "macro": "BEAR",
+            "macd_vote": "HOLD",
+            "rsi_vote": "SELL",
+            "ema_vote": "BUY",
+            "decision": "HOLD",
+            "price": 0.02427,
+            "volume_24h": 6968.89232663,
+            "change_24h": -4.697156983930773
         }
     ]
 }
